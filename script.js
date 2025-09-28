@@ -1726,6 +1726,8 @@ function submitReview(event, movieId) {
         text: formData.get('text')
     };
     
+    console.log('Submitting review for movie', movieId, ':', review); // Debug log
+    
     if (!review.rating) {
         alert('Please select a rating!');
         return;
@@ -1737,6 +1739,7 @@ function submitReview(event, movieId) {
     const reviewsList = document.getElementById(`reviewsList-${movieId}`);
     if (reviewsList) {
         reviewsList.innerHTML = renderMovieReviews(movieId);
+        console.log('Updated reviews list for movie', movieId); // Debug log
     }
     
     // Update review count
@@ -1754,6 +1757,8 @@ function submitReview(event, movieId) {
 
 function renderMovieReviews(movieId) {
     const movieReviews = getMovieReviews(movieId);
+    
+    console.log(`Rendering reviews for movie ${movieId}:`, movieReviews); // Debug log
     
     if (movieReviews.length === 0) {
         return '<div class="no-reviews">No reviews yet. Be the first to review this movie!</div>';
