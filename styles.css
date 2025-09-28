@@ -514,7 +514,7 @@ body {
 .page-number {
     background: white;
     color: #667eea;
-    border: 2px solid #667eea;
+    border: 1px solid #667eea;
     padding: 8px 12px;
     border-radius: 8px;
     cursor: pointer;
@@ -791,6 +791,27 @@ body {
     background: #f8f9fa;
     border-radius: 15px;
     border: 2px dashed #ddd;
+}
+
+.loading-reviews {
+    text-align: center;
+    color: #667eea;
+    padding: 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.loading-reviews::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #667eea;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
 }
 
 /* Notification Styles */

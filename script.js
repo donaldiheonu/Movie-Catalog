@@ -214,7 +214,7 @@ const movies = [
         year: 2012,
         rating: 8.0,
         genre: "action",
-        poster: "https://images.unsplash.com/photo-1489599808001-1b2b0a0b0b0b?w=400&h=600&fit=crop&crop=faces",
+        poster: "image/avengers.jpeg",
         description: "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
         director: "Joss Whedon",
         cast: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson"],
@@ -222,199 +222,200 @@ const movies = [
         trailer: "https://www.youtube.com/embed/eOrNdBpGMv8"
     },
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
+        id: 18,
+        title: "Parasite",
+        year: 2019,
         rating: 9.3,
         genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        poster: "image/parasite.jpeg",
+        description: "A wealthy family's chauffeur's son falls in love with their daughter, leading to a series of unexpected events.",
+        director: "Bong Joon Ho",
+        cast: ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik", "Park So-dam"],
+        duration: "132 min",
+        trailer: "https://www.youtube.com/embed/vOkxHtjUuWU"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 19,
+        title: "Django Unchained",
+        year: 2012,
+        rating: 8.5,
+        genre: "action",
+        poster: "image/dg.jpeg",
+        description: "A bounty hunter hunts down a slave owner who bought his own wife.",
+        director: "Quentin Tarantino",
+        cast: ["Jamie Foxx", "Christoph Waltz", "Leonardo DiCaprio", "Samuel L. Jackson", "Kerry Washington"],
+        duration: "165 min",
+        trailer: "https://www.youtube.com/watch?v=0fUCuvNlOCg"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
+        id: 20,
+        title: "The Prestige",
+        year: 2006,
         rating: 9.3,
         genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        poster: "image/prestige.jpeg",
+        description: "A magician and a debunker become rivals who try to outdo each other in a series of illusions.",
+        director: "Christopher Nolan",
+        cast: ["Christian Bale", "Hugh Jackman", "Scarlett Johansson", "Michael Caine", "Rebecca Hall"],
+        duration: "130 min",
+        trailer: "https://www.youtube.com/watch?v=RLtaA9fFNXU"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 21,
+        title: "The Departed",
+        year: 2006,
+        rating:8.5,
+        genre: "action",
+        poster: "image/departed.jpeg",
+        description: "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+        director: "Martin Scorsese",
+        cast: ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson", "Mark Wahlberg", "Martin Sheen"],
+        duration: "151 min",
+        trailer: "https://www.youtube.com/watch?v=oeZ9Y8KU05M"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        id: 22,
+        title: "Spider-Man: Across the Spider-Verse",
+        year: 2023,
+        rating: 8.9,
+        genre: "action",
+        poster: "image/spi.jpeg",
+        description: "A spider-man from another dimension joins forces with his alter ego to save his family and friends from a dangerous threat.",
         director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        cast: ["Tom Holland", "Shameik Moore", "Hailee Steinfeld", "Jacob Batalon", "Marisa Tomei"],
+        duration: "143 min",
+        trailer: "https://www.youtube.com/results?search_query=Spider-Man%3A+Across+the+Spider-Verse"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
+        id: 23,
+        title: "Dune",
+        year: 2021,
+        rating: 8.0,
         genre: "drama",
-        poster: "image/shaw.jpeg",
+        poster: "image/dune.jpeg",
         description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        director: "Denis Villeneuve",
+        cast: ["Timothée Chalamet", "Rebecca Ferguson", "Zendaya", "Oscar Isaac", "Jason Momoa"],
+        duration: "2h 35m",
+        trailer: "https://www.youtube.com/watch?v=n9xhJrPXop4"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 24,
+        title: "Your Name",
+        year: 2016,
+        rating: 8.4,
+        genre: "animation, drama, fantasy",
+        poster: "image/yourname.jpeg",
+        description: "Two teenagers share a profound, magical connection upon discovering they are swapping bodies. When a disaster threatens, they must find a way to meet and save their worlds.",
+        director: "Makoto Shinkai",
+        cast: ["Ryunosuke Kamiki", "Mone Kamishiraishi", "Ryo Narita", "Aoi Yuki", "Nobunaga Shimazaki"],
+        duration: "112 min",
+        trailer: "https://www.youtube.com/embed/xU47nhruN-Q"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+            id: 25,
+            title: "Toy Story",
+            year: 1995,
+            rating: 8.3,
+            genre: "animation, adventure, comedy",
+            poster: "image/toy.jpeg",
+            description: "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy's room.",
+            director: "John Lasseter",
+            cast: ["Tom Hanks", "Tim Allen", "Don Rickles", "Jim Varney", "Wallace Shawn"],
+            duration: "81 min",
+            trailer: "https://www.youtube.com/embed/v-PjgYDrg70"
+         
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 26,
+        title: "3 Idiots",
+        year: 2009,
+        rating: 8.4,
+        genre: "comedy, drama",
+        poster: "image/3.jpeg",
+        description: "Two friends are searching for their long-lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them idiots.",
+        director: "Rajkumar Hirani",
+        cast: ["Aamir Khan", "R. Madhavan", "Sharman Joshi", "Kareena Kapoor", "Boman Irani"],
+        duration: "170 min",
+        trailer: "https://www.youtube.com/embed/xvszmNXdM4w"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 27,
+        title: "Oppenheimer",
+        year: 2023,
+        rating: 8.5,
+        genre: "biography, drama, history",
+        poster: "image/opp.jpeg",
+        description: "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
+        director: "Christopher Nolan",
+        cast: ["Cillian Murphy", "Emily Blunt", "Matt Damon", "Robert Downey Jr.", "Florence Pugh"],
+        duration: "180 min",
+        trailer: "https://www.youtube.com/embed/uYPbbksJxIg"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 28,
+        title: "Top Gun",
+        year: 1986,
+        rating: 6.9,
+        genre: "action, drama",
+        poster: "image/top.jpeg",
+        description: "As students at the United States Navy's elite fighter weapons school, talented young pilots compete to be best in the class, while one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom.",
+        director: "Tony Scott",
+        cast: ["Tom Cruise", "Kelly McGillis", "Val Kilmer", "Anthony Edwards", "Tom Skerritt"],
+        duration: "110 min",
+        trailer: "https://www.youtube.com/embed/qAfbp3YX9F0"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 29,
+        title: "Harry Potter and the Sorcerer's Stone",
+        year: 2001,
+        rating: 7.6,
+        genre: "adventure, drama, fantasy",
+        poster: "image/harry.jpeg",
+        description: "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family, and the dark forces that haunt the magical world.",
+        director: "Chris Columbus",
+        cast: ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Richard Harris", "Alan Rickman"],
+        duration: "152 min",
+        trailer: "https://www.youtube.com/embed/VyHV0BRtdxo"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 30,
+        title: "The Notebook",
+        year: 2004,
+        rating: 7.8,
+        genre: "drama, romance",
+        poster: "image/note.jpeg",
+        description: "A young couple fall in love in the 1940s but are soon separated by social differences and the events of World War II. Years later, their love story is recounted by an elderly man reading from a notebook.",
+        director: "Nick Cassavetes",
+        cast: ["Ryan Gosling", "Rachel McAdams", "James Garner", "Gena Rowlands", "Joan Allen"],
+        duration: "123 min",
+        trailer: "https://www.youtube.com/embed/FC6biTjEyZw"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 31,
+        title: "The Theory of Everything",
+        year: 2014,
+        rating: 7.7,
+        genre: "biography, drama, romance",
+        poster: "image/theo.jpeg",
+        description: "A look at the relationship between the famous physicist Stephen Hawking and his wife Jane, as he faces the challenges of ALS while making groundbreaking scientific discoveries.",
+        director: "James Marsh",
+        cast: ["Eddie Redmayne", "Felicity Jones", "Charlie Cox", "Emily Watson", "David Thewlis"],
+        duration: "123 min",
+        trailer: "https://www.youtube.com/embed/Salz7uGp72c"
     },,
     {
-        id: 4,
-        title: "The Shawshank Redemption",
-        year: 1994,
-        rating: 9.3,
-        genre: "drama",
-        poster: "image/shaw.jpeg",
-        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        director: "Frank Darabont",
-        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown"],
-        duration: "142 min",
-        trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
+        id: 32,
+        title: "Gone Girl",
+        year: 2014,
+        rating: 8.1,
+        genre: "drama, mystery, thriller",
+        poster: "image/gone.jpeg",
+        description: "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+        director: "David Fincher",
+        cast: ["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris", "Tyler Perry", "Carrie Coon"],
+        duration: "149 min",
+        trailer: "https://www.youtube.com/embed/2-_-1nJf8Vg"
     },,
     {
         id: 4,
@@ -1367,8 +1368,8 @@ const closeModal = document.getElementById('closeModal');
 let currentFilter = 'all';
 let currentSearch = '';
 
-// Reviews storage
-let reviews = JSON.parse(localStorage.getItem('movieReviews')) || {};
+// Reviews storage - now using Firebase
+let reviews = {};
 
 // Pagination state
 let currentPage = 1;
@@ -1577,7 +1578,7 @@ function openMovieModal(movie) {
                 </div>
                 
                 <div class="reviews-list" id="reviewsList-${movie.id}">
-                    ${renderMovieReviews(movie.id)}
+                    <div class="loading-reviews">Loading reviews...</div>
                 </div>
             </div>
         </div>
@@ -1585,6 +1586,30 @@ function openMovieModal(movie) {
     
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
+    
+    // Load reviews from Firebase
+    loadReviewsForMovie(movie.id);
+}
+
+// Load reviews for a specific movie
+async function loadReviewsForMovie(movieId) {
+    const reviewsList = document.getElementById(`reviewsList-${movieId}`);
+    const reviewsTitle = document.querySelector('.reviews-title');
+    
+    if (!reviewsList) return;
+    
+    try {
+        const movieReviews = await getMovieReviews(movieId);
+        reviewsList.innerHTML = await renderMovieReviews(movieId);
+        
+        // Update review count
+        if (reviewsTitle) {
+            reviewsTitle.innerHTML = `<i class="fas fa-star"></i> Reviews (${movieReviews.length})`;
+        }
+    } catch (error) {
+        console.error('Error loading reviews:', error);
+        reviewsList.innerHTML = '<div class="no-reviews">Error loading reviews. Please try again.</div>';
+    }
 }
 
 // Toggle trailer visibility
@@ -1692,15 +1717,20 @@ function createMovieCardWithLazyLoading(movie) {
 }
 
 // Review Functions
-function getMovieReviews(movieId) {
+async function getMovieReviews(movieId) {
+    if (window.getReviewsFromFirebase) {
+        try {
+            const firebaseReviews = await window.getReviewsFromFirebase(movieId);
+            return firebaseReviews;
+        } catch (error) {
+            console.error('Error loading reviews from Firebase:', error);
+            return reviews[movieId] || [];
+        }
+    }
     return reviews[movieId] || [];
 }
 
-function addReview(movieId, review) {
-    if (!reviews[movieId]) {
-        reviews[movieId] = [];
-    }
-    
+async function addReview(movieId, review) {
     const newReview = {
         id: Date.now(),
         name: review.name,
@@ -1709,13 +1739,30 @@ function addReview(movieId, review) {
         date: new Date().toLocaleDateString()
     };
     
+    // Try Firebase first
+    if (window.addReviewToFirebase) {
+        try {
+            const success = await window.addReviewToFirebase(movieId, newReview);
+            if (success) {
+                console.log('Review added to Firebase successfully');
+                return newReview;
+            }
+        } catch (error) {
+            console.error('Error adding review to Firebase:', error);
+        }
+    }
+    
+    // Fallback to localStorage
+    if (!reviews[movieId]) {
+        reviews[movieId] = [];
+    }
     reviews[movieId].unshift(newReview);
     localStorage.setItem('movieReviews', JSON.stringify(reviews));
     
     return newReview;
 }
 
-function submitReview(event, movieId) {
+async function submitReview(event, movieId) {
     event.preventDefault();
     
     const form = event.target;
@@ -1733,30 +1780,47 @@ function submitReview(event, movieId) {
         return;
     }
     
-    addReview(movieId, review);
+    // Show loading state
+    const submitBtn = form.querySelector('.submit-review-btn');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Submitting...';
+    submitBtn.disabled = true;
     
-    // Update the reviews list
-    const reviewsList = document.getElementById(`reviewsList-${movieId}`);
-    if (reviewsList) {
-        reviewsList.innerHTML = renderMovieReviews(movieId);
-        console.log('Updated reviews list for movie', movieId); // Debug log
+    try {
+        await addReview(movieId, review);
+        
+        // Update the reviews list
+        const reviewsList = document.getElementById(`reviewsList-${movieId}`);
+        if (reviewsList) {
+            const movieReviews = await getMovieReviews(movieId);
+            reviewsList.innerHTML = await renderMovieReviews(movieId);
+            console.log('Updated reviews list for movie', movieId); // Debug log
+        }
+        
+        // Update review count
+        const reviewsTitle = document.querySelector('.reviews-title');
+        if (reviewsTitle) {
+            const movieReviews = await getMovieReviews(movieId);
+            reviewsTitle.innerHTML = `<i class="fas fa-star"></i> Reviews (${movieReviews.length})`;
+        }
+        
+        // Clear form
+        form.reset();
+        
+        // Show success message
+        showNotification('Review submitted successfully!', 'success');
+    } catch (error) {
+        console.error('Error submitting review:', error);
+        showNotification('Error submitting review. Please try again.', 'error');
+    } finally {
+        // Reset button
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
     }
-    
-    // Update review count
-    const reviewsTitle = document.querySelector('.reviews-title');
-    if (reviewsTitle) {
-        reviewsTitle.innerHTML = `<i class="fas fa-star"></i> Reviews (${getMovieReviews(movieId).length})`;
-    }
-    
-    // Clear form
-    form.reset();
-    
-    // Show success message
-    showNotification('Review submitted successfully!', 'success');
 }
 
-function renderMovieReviews(movieId) {
-    const movieReviews = getMovieReviews(movieId);
+async function renderMovieReviews(movieId) {
+    const movieReviews = await getMovieReviews(movieId);
     
     console.log(`Rendering reviews for movie ${movieId}:`, movieReviews); // Debug log
     

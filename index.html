@@ -8,13 +8,76 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Firebase SDK -->
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getFirestore, collection, addDoc, getDocs, orderBy, query } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+        
+        // Firebase config - Replace with your config
+        const firebaseConfig = {
+            apiKey: "AIzaSyAxxxxxxx",
+            authDomain: "your-project-id.firebaseapp.com",
+            projectId: "your-project-id",
+            storageBucket: "your-project-id.appspot.com",
+            messagingSenderId: "1234567890",
+            appId: "1:1234567890:web:abc123def456"
+          };
+        
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+        
+        // Make Firebase functions globally available
+        window.firebaseDB = db;
+        window.addReviewToFirebase = async (movieId, review) => {
+            try {
+                await addDoc(collection(db, 'reviews'), {
+                    movieId: movieId,
+                    name: review.name,
+                    rating: review.rating,
+                    text: review.text,
+                    date: new Date().toLocaleDateString(),
+                    timestamp: new Date()
+                });
+                return true;
+            } catch (error) {
+                console.error('Error adding review:', error);
+                return false;
+            }
+        };
+        
+        window.getReviewsFromFirebase = async (movieId) => {
+            try {
+                const q = query(collection(db, 'reviews'), orderBy('timestamp', 'desc'));
+                const querySnapshot = await getDocs(q);
+                const reviews = [];
+                querySnapshot.forEach((doc) => {
+                    const data = doc.data();
+                    if (data.movieId == movieId) {
+                        reviews.push({
+                            id: doc.id,
+                            name: data.name,
+                            rating: data.rating,
+                            text: data.text,
+                            date: data.date
+                        });
+                    }
+                });
+                return reviews;
+            } catch (error) {
+                console.error('Error getting reviews:', error);
+                return [];
+            }
+        };
+    </script>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <h1 class="logo">
                 <i class="fas fa-film"></i>
-                Movie Catalog/Review System
+                Movie Catalog/Review
             </h1>
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Search movies..." class="search-input">
